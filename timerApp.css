@@ -1,0 +1,93 @@
+.pageBackground {
+  background-color: #8C9F5F;
+  color: #473C33;
+  overflow: hidden;
+}
+::placeholder{
+  opacity: 40%;
+}
+p {
+  font-size: 20px;
+  margin: 15px;
+}
+.mainBody {
+  width: 300px;
+  height: 160px;
+  margin:  7% auto;
+  background-color: #FFFFFF;
+  font-family: monospace;
+  border-radius: 25px;
+}
+.topText {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  border-bottom: solid 2px #F8FAF5;
+  padding-bottom: 2px;
+  margin-bottom: 5px;
+}
+
+.divBelow {
+  margin-left: 40px;
+  margin-right: 20px;
+  width: 1fr;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 25px;
+}
+.bottomChoices {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.divinputField1 {
+  width: fit-content;
+
+}
+
+.divinputField2 {
+  width: fit-content;
+
+}
+
+.inputField {
+  width: 40px;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #F8FAF5;
+}
+
+.startDiv {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.startButton {
+  background-color: #FEC868;
+  padding: 15%;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: larger;
+  color: white;
+  height: fit-content;
+  width: fit-content;
+  aspect-ratio: 1 / 1;
+  border: none;
+  transition: 200ms;
+}
+
+
+.startButton:hover {
+  filter: brightness(90%);
+}

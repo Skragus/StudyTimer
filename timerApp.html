@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study timer</title>
+    <link rel="stylesheet" href="timerApp.css" />
+    <script src="timerApp.js" defer></script>
+    <audio id="chime" controls style="display:none">
+      <source src="chime.mp3" type="audio/mpeg"> 
+    </audio>
+  </head>
+  <body class="pageBackground">
+    <div id="divBody" class="mainBody">
+      <div class="topText"><p id="divTop">hello</p></div>
+      <div id="divBottom" class="divBelow">
+        <div id="divChoose" class="bottomChoices">
+          <div class="divinputField1">
+            min:
+            <input
+              id="inputMin"
+              class="inputField"
+              type="number"
+              min="10"
+              max="999"
+              placeholder="30"
+            />
+          </div>
+          <br />
+          <div class="divinputField2">
+            max:
+            <input
+              id="inputMax"
+              class="inputField"
+              type="number"
+              min="10"
+              max="999"
+              placeholder="60"
+            />
+          </div>
+        </div>
+        <div id="divStart" class="startDiv">
+          <button id="buttonId" class="startButton">Start</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
