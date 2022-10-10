@@ -43,7 +43,7 @@ function runProgram () {
     startButton.innerHTML = 'Stop'
     topTextDiv.innerText = 'study time'
     getTime(inputMinDiv.value, inputMaxDiv.value)
-    counter = setInterval(() => {startTime(minutes)}, 1000);
+    counter = setInterval(() => {startTime(minutes)}, 60000);
 
   } else {
     startButton.style.backgroundColor='#FEC868'
