@@ -1,3 +1,11 @@
+@viewport {
+  width: device-width;
+    zoom: 4;
+    min-zoom: 0.5;
+    max-zoom: 8;
+    user-zoom: fixed;
+}
+
 .pageBackground {
   background-color: #8C9F5F;
   color: #473C33;
