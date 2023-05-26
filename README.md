@@ -1,4 +1,5 @@
 # StudyTimer
+Project#001 
 timer that gives you a break at random between a minimum input and a maximum imput
 
 This is my first ever coding project without a tutorial. What I learned from this project is the 
